@@ -47,11 +47,11 @@ export default function Relatorio() {
         </Typography>
 
         <Button onClick={Consulta}>
-          Consultar algo
+          Consultar dados 
         </Button>
 
         <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 800 }} size="small" aria-label="a dense table">''
+          <Table sx={{ minWidth: 800 }} size="small" aria-label="a dense table">
             <TableHead>
               <TableRow>
                 <TableCell>Data</TableCell>
